@@ -132,7 +132,7 @@ canvas.create_window( x_baseline + 0, y_baseline + 20, anchor=NW, window=label_r
 
 input_field_start_rabbits = Entry(canvas)
 
-canvas.create_window(x_baseline + 120, y_baseline + 20, anchor=NW, window=input_field_start_rabbits, height=20, width=50)
+canvas.create_window( x_baseline + 120, y_baseline + 20, anchor=NW, window=input_field_start_rabbits, height=20, width=50)
 
 
 label_foxes = Label(canvas, text='Rabbits start')
